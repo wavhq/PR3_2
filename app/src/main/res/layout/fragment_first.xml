@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".first"
+    android:id="@+id/frameLayout">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_conversion_absoluteHeight="731dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/moscow"
+            android:layout_width="342dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="16dp"
+            android:text="Moscow"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_absoluteHeight="101dp"
+            tools:layout_conversion_absoluteWidth="217dp" />
+
+        <Button
+            android:id="@+id/tbilisi"
+            android:layout_width="342dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="88dp"
+            android:text="Tbilisi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_absoluteHeight="101dp"
+            tools:layout_conversion_absoluteWidth="217dp" />
+
+        <Button
+            android:id="@+id/paris"
+            android:layout_width="342dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="160dp"
+            android:text="Paris"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_absoluteHeight="101dp"
+            tools:layout_conversion_absoluteWidth="217dp" />
+
+        <TextView
+            android:id="@+id/click"
+            android:layout_width="335dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="236dp"
+            android:text="Click SUBMIT button"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
